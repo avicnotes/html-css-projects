@@ -73,21 +73,33 @@
         padding-bottom: 1em;
       }
 
+      .brand {
+        margin-top:10px;
+      }
 
       .brand a:hover {
         background:#f1f4f8;
       }
 
       .brand img {
-        width:30px;
+        width:25px;
         margin-bottom:-5px;
 
       }
       .brand span{
-        display:inline-block;
-        font-size: 1.2em;
+        display:inline;
+        font-size: 1.1em;
         font-weight:400;
       }
+      @media (min-width: 48em) {
+        .brand img {
+        width:30px;
+        }
+        .brand span{
+          font-size:1.2em;
+        }
+      }
+
       .post-data {
         padding-bottom: 1em;
       }
@@ -183,7 +195,6 @@
         color: #858b93;
       }
 
-    
   </style>
     
   </head>
@@ -216,7 +227,7 @@
             </li>
             <li>
               <a href="#">
-                Day/Night
+                Night
               </a>
             </li>
           </ul>
