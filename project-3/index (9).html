@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+
+<style id="webmakerstyle">
+
+</style>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/starability/2.4.2/starability-minified/starability-basic.min.css
+">
+    <style>
+      .navbar-brand  .left-burger {
+          margin-left: auto;
+        }
+      @media (max-width: 1023px) {
+        .navbar-brand  .left-burger {
+          margin-left:0;
+        }
+      }
+      .checkbox {
+        display:block;
+        padding:5px 10px;
+      }
+      .radio {
+/*         display:block; */
+        padding:0;
+        margin:0;
+      }
+      .radio input {
+        padding:0;
+        margin:0;
+/*         display:block; */
+/*         padding:5px 10px; */
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger left-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png">
+        </a>
+        </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="field is-grouped">
+            <p class="control is-expanded">
+              <input class="input" type="text" placeholder="Search">
+            </p>
+            <p class="control">
+              <a class="button is-info">
+                Search
+              </a>
+            </p>
+          </div>
+          <a class="navbar-item">
+            Home
+          </a>
+
+          <a class="navbar-item">
+            Documentation
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            
+            <a class="navbar-link">
+              Login
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                <button class="button is-primary">
+                  Login
+                </button>
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Create an account
+              </a>
+               <hr class="navbar-divider">
+             <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Account
+              </a>
+              <a class="navbar-item">
+                Order
+              </a>
+              <a class="navbar-item">
+                Saved items
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Help
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                Help Center
+              </a>
+              <a class="navbar-item">
+                Place & Track Order
+              </a>
+              <a class="navbar-item">
+                  Order Cancellation
+              </a>
+              <a class="navbar-item">
+                  Returns & Refunds
+              </a>
+              <a class="navbar-item">
+                Payment & Jumia Account
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                <button class="button is-primary">
+                  LIVE HELP
+                </button>
+                </a>
+            </div>
+          </div>
+          <a class="navbar-item">
+            Cart
+          </a>
+        </div>
+      </div>
+    </nav>
+    
+    
+    <section class="section">
+      <div class="container">
+        <nav class="breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
+      <ul>
+        <li><a href="#">Bulma</a></li>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">Components</a></li>
+        <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+      </ul>
+    </nav>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container box">
+        <figure class="image is-3by1">
+          <img src="https://bulma.io/images/placeholders/720x240.png" alt="Full width image">
+        </figure>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="card">
+          <figure class="image is-128x128">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+          cards containing categories icons        
+        </div>
+        <div class="box">
+          <figure class="image is-128x128">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+          cards containing categories icons        
+        </div>
+        <div class="box">
+          <figure class="image is-128x128">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+          cards containing categories icons        
+        </div>
+        <div class="card">
+          <figure class="image is-128x128">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+          cards containing categories icons        
+        </div>
+      </div>
+    </section>
+    <section class="section sidebar">
+      <div class="columns">
+        <div class="column is-narrow">
+          <div class="container">
+            <article class="panel">
+              <p class="panel-heading">
+                Success
+              </p>
+              <a class="panel-block is-active">
+                Phones & Tablets
+              </a>
+              <a class="panel-block">
+                Mobile Phone Accessories
+              </a>
+              <a class="panel-block is-active">
+                Adapters
+              </a>
+              <a class="panel-block">
+                Armband
+              </a>
+              <a class="panel-block">
+                Batteries
+              </a>
+              <a class="panel-block">
+                Batteries & Battery Packs
+              </a>
+              <a class="panel-block is-active">
+                Bluetooth Accessories
+              </a>
+              <a class="panel-block">
+                Bluetooth Headsets
+              </a>
+              <a class="panel-block">
+                Cables
+              </a>
+              <a class="panel-block">
+                Car Accessories
+              </a>
+              <a class="panel-block is-active">
+                Cases
+              </a>
+              <a class="panel-block">
+                Cases & Sleeves
+              </a>
+              <a class="panel-block">
+                Chargers & Power Adapters
+              </a>
+              <a class="panel-block">
+                Corded Headsets
+              </a>
+            </article>
+            <!-- Used rating provided by starability             -->
+            <h3>PRODUCT RATING</h3>
+            <div class="is-flex block">
+              <p class="starability-result" data-rating="4">
+                Rated: 4 stars
+              </p>
+              <p> & above</p>
+            </div>
+            <div class="is-flex block">
+              <p class="starability-result" data-rating="3">
+                Rated: 4 stars
+              </p>
+              <p> & above</p>
+            </div>
+            <div class="is-flex block">
+              <p class="starability-result" data-rating="2">
+                Rated: 4 stars
+              </p>
+              <p> & above</p>
+            </div>
+            <div class="is-flex block">
+              <p class="starability-result" data-rating="1">
+                Rated: 4 stars
+              </p>
+              <p> & above</p>
+            </div>
+            <!-- End of rating provided by starability             -->
+            <!-- Start of express shipping             -->
+            <h3>EXPRESS SHIPPING</h3>
+            <label class="checkbox">
+              <input type="checkbox">
+              Remember me
+            </label>
+            <!-- End of express shipping             -->
+            <!-- Start of Brand             -->
+            <h3>BRAND</h3>
+            <div class="field">
+              <div class="control has-icons-left has-icons-right">
+                <input class="input" type="email" placeholder="Normal">
+                <span class="icon is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-right">
+                  <i class="fas fa-check"></i>
+                </span>
+              </div>
+            </div>
+            <div class="container">
+              <label class="checkbox">
+                <input type="checkbox">
+                Amaya
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Anker
+              </label><label class="checkbox">
+                <input type="checkbox">
+                Autofocus
+              </label><label class="checkbox">
+                <input type="checkbox">
+                Awei            
+              </label><label class="checkbox">
+                <input type="checkbox">
+                Bavin
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Benks
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Berjalan
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Blackberry
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Bluedio
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Borofone
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Bqeyz
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Caseme
+              </label>
+            </div>
+              
+            
+            <!-- End of Brand             -->
+            <!-- Start of Price           -->
+            <h3>PRICE (KSH)</h3>
+            <a href="#">
+              APPLY
+            </a>
+            <p>Range element</p>
+            <div class="field is-grouped">
+                <p class="control">
+                  <input class="input" type="number" placeholder="1">
+                </p>
+                <span> to </span>
+              <p class="control">
+                <input class="input" type="number" placeholder="15000">
+              </p>
+            </div>
+            <!-- End of Price           -->
+            <!-- Start of Operating system           -->
+            <h3>OPERATING SYSTEM</h3>
+            <div class="container">
+              <label class="checkbox">
+                <input type="checkbox">
+                Android
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Android 4.2, Jelly Bean
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                iOS
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                No OS
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Other
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Windows
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Windows 7
+              </label>
+            </div>
+            <!-- End of Operating system           -->
+            <!-- Start of Operating system           -->
+            <h3>COLOR</h3>
+            <div class="container">
+              <label class="checkbox">
+                <input type="checkbox">
+                Beige
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Black
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Blue
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Bronze
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Brown
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Gold
+              </label>
+              <label class="checkbox">
+                <input type="checkbox">
+                Green
+              </label>
+            </div>
+            <!-- End of Operating system           -->
+            <!-- Start of Operating system           -->
+            <h3>Seller score</h3>
+<!--             <div class="container"> -->
+<!--               <div class="control"> -->
+                <label class="radio">
+                  <input type="radio" name="answer">
+                  80% or more
+                </label>
+                <label class="radio">
+                  <input type="radio" name="answer">
+                  60% or more
+                </label>
+                <label class="radio">
+                  <input type="radio" name="answer">
+                  40% or more
+                </label>
+                <label class="radio">
+                  <input type="radio" name="answer">
+                  20% or more
+                </label>
+<!--               </div> -->
+<!--             </div> -->
+            <!-- End of Operating system           -->
+          </div>
+        </div>
+        <div class="column">
+          <div class="container">
+            <h1 class="title">
+              Main Content Section
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Additional information section
+        </h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="columns">
+        <div class="column is-one-fifth">
+          <div class="container">  
+            <h1 class="title">
+              Subscribe/ download app area
+            </h1>
+          </div>
+        </div>
+        <div class="column">
+          <div class="container">  
+            <h1 class="title">
+              Subscribe/ download app area
+            </h1>
+          </div>
+        </div>
+        <div class="column is-one-fifth">
+          <div class="container">  
+            <h1 class="title">
+              Subscribe/ download app area
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <div class="container">
+            <h1 class="title">
+              footer nav
+            </h1>
+          </div>
+        </div>
+        <div class="column is-one-quarter">
+          <div class="container">
+            <h1 class="title">
+              footer nav
+            </h1>
+          </div>
+        </div>
+        <div class="column is-one-quarter">
+          <div class="container">
+            <h1 class="title">
+              footer nav
+            </h1>
+          </div>
+        </div>
+        <div class="column is-one-quarter">
+          <div class="container">
+            <h1 class="title">
+              footer nav
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <div class="container">
+            <h1 class="title">
+              Social and Payments
+            </h1>
+          </div>
+        </div>
+          <div class="column is-one-quarter">
+            <div class="container">
+              <h1 class="title">
+                Social and Payments
+              </h1>
+            </div>
+          </div>
+          <div class="column is-one-half">
+            <div class="container">
+              <h1 class="title">
+                Social and Payments
+              </h1>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Brands
+        </h1>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="filesystem:chrome-extension://lkfkkhfhhdkiemehlpkgjeojomhpccnh/temporary/script.js">
+</script>
+</body>
+</html>
