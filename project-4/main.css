@@ -1,0 +1,221 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,h2, h3, h4, h5, h6{
+  font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.7em;
+}
+
+
+p {
+  font-weight: 400;
+  font-size:1.6em;
+  color:#495057;
+  line-height:1.7;
+}
+a {
+  font-weight: 300;
+  font-size:1.5em;
+  text-decoration:none;
+  padding:10px;
+  color:#495057;
+}
+
+img {
+  width:100%;
+}
+
+header, footer, main {
+  padding-left:3em;
+  padding-right:3em;
+}
+
+/* Adding two columns in the content area */
+
+.columns {
+  display:flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 48em) {
+  .columns {
+    flex-wrap: nowrap;
+  }
+}
+/* End of Adding two columns in the content area */
+/* Adjust padding due to two columns in the content area */
+@media (min-width: 48em) {
+  .aside {
+    width: 300px;
+    padding-left: 2em;
+  }
+  header, footer, main {
+    padding-left:4em;
+    padding-right:4em;
+
+  }
+}
+@media (min-width: 64em) {
+  header, footer, main {
+      padding-left:8%;
+      padding-right:8%;
+    }
+}
+
+/* For wide screen  */
+@media (min-width: 100em) {
+ header, footer, main {
+      padding-left:18%;
+      padding-right:18%;
+    }
+}
+/* End of adjust padding due to two columns in the content area */
+/* End of Global Styles */
+  
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #1b1d25;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.brand {
+  margin-top:10px;
+}
+
+.brand a:hover {
+  background:#f1f4f8;
+}
+
+.brand img {
+  width:25px;
+  margin-bottom:-5px;
+  
+}
+.brand span{
+  display:inline;
+  font-size: 1.1em;
+  font-weight:400;
+}
+@media (min-width: 48em) {
+  .brand img {
+  width:30px;
+  }
+  .brand span{
+    font-size:1.2em;
+  }
+}
+
+.post-data {
+  padding-bottom: 1em;
+}
+
+.post-data h1 {
+    font-size:2.4em;
+}
+header nav a {
+ color:#ffffffa6;
+}
+
+@media (min-width: 48em) {
+  header {
+    background: #ffffff;
+  }
+  header nav a {
+   color:#858b93;
+  }
+  nav a:hover {
+    background:#f1f4f8;
+    border-radius:5px; 
+  }
+}
+
+nav ul {
+  list-style-type: none;
+  padding:0;
+}
+
+nav ul li {
+  display:inline;
+}
+.publish-data {
+  font-size: 1.4em;
+  font-weight:500;
+}
+
+.tags a {
+  background:#f1f4f8;
+  border-radius: 20%;
+  padding:5px 10px;
+  font-size: 0.8em;
+  font-weight:500;
+}
+.tags a:hover {
+  background: #e1e6ed;
+
+}
+
+.prev-next a {
+  background:#f1f4f8;
+  display:block;
+  margin-bottom:15px;
+  padding:20px;
+  font-size:1.4em;
+  border-radius:5px;
+}
+.prev-next a:hover {
+  background: #e1e6ed;
+}
+
+.prev-next a span {
+  color:#343a40;
+  font-weight:600;
+  font-size:1.2em;
+
+}
+@media (min-width: 48em) {
+  .prev-next {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .previous {
+    margin-right:10px;
+    flex:1;
+    text-align:right;
+  }
+  .next {
+    margin-left:10px;
+    flex:1;
+  }
+}
+
+footer {
+  text-align: center;
+  padding-top:2em;
+}
+
+footer nav, .credits {
+  padding-bottom:2em;
+}
+footer nav a {
+  color: #858b93;
+}
+
+footer nav a:hover {
+  background:#f1f4f8;
+  border-radius:5px; 
+}
+
+
+
+
+
