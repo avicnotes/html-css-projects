@@ -1,0 +1,28 @@
+header, main, footer {
+        padding-left:3em;
+        padding-right:3em;
+}
+
+@media (min-width: 48em) {
+        header, main, footer {
+          padding-left:4em;
+          padding-right:4em;
+
+        }
+      }
+
+@media (min-width: 64em) {
+        header, main, footer {
+          padding-left:8%;
+          padding-right:8%;
+        }
+      }
+
+/* For wide screen  */
+@media (min-width: 100em) {
+ header, footer, main {
+      padding-left:18%;
+      padding-right:18%;
+    }
+
+}
