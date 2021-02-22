@@ -17,13 +17,13 @@ h3 {
 
 p {
   font-weight: 400;
-  font-size:1.6em;
+  font-size:1.2em;
   color:#495057;
   line-height:1.7;
 }
 a {
   font-weight: 300;
-  font-size:1.5em;
+  font-size:1.2em;
   text-decoration:none;
   padding:10px;
   color:#495057;
@@ -148,7 +148,7 @@ nav ul li {
   display:inline;
 }
 .publish-data {
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight:500;
 }
 
@@ -169,7 +169,7 @@ nav ul li {
   display:block;
   margin-bottom:15px;
   padding:20px;
-  font-size:1.4em;
+  font-size:1.2em;
   border-radius:5px;
 }
 .prev-next a:hover {
