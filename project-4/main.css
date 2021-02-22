@@ -18,11 +18,12 @@ h3 {
 p {
   font-weight: 400;
   font-size:1.2em;
-  color:#495057;
+  color:#212529;
   line-height:1.7;
 }
+
 a {
-  font-weight: 300;
+  font-weight: 400;
   font-size:1.2em;
   text-decoration:none;
   padding:10px;
@@ -131,7 +132,7 @@ header nav a {
     background: #ffffff;
   }
   header nav a {
-   color:#858b93;
+   color:#495057;
   }
   nav a:hover {
     background:#f1f4f8;
@@ -207,7 +208,7 @@ footer nav, .credits {
   padding-bottom:2em;
 }
 footer nav a {
-  color: #858b93;
+  color: #495057;
 }
 
 footer nav a:hover {
