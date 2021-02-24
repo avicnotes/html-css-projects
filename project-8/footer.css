@@ -1,7 +1,11 @@
 ﻿footer {
   text-align: center;
-  padding-top:2em;
+  padding-bottom:2em;
   font-size: 0.9em;
+}
+
+footer > *{
+padding-top:1em; 
 }
 
 footer nav {
@@ -19,8 +23,4 @@ footer nav a {
 
 footer nav a:hover {
   background:#f1f4f8;
-   
 }
-
-/*
-*/
