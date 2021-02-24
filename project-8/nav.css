@@ -4,11 +4,13 @@ header {
        /* background: #1b1d25; */
         padding-top: 1em;
         padding-bottom: 1em;
+        flex-wrap:wrap;
 }
 header a {
   border: none;
   padding:10px;
   border-radius:5px;
+  display:block;
 }
 
 header a:hover, a:focus {
@@ -19,21 +21,9 @@ header a:hover, a:focus {
   color: #343a40;
 }
 
-
-
-/* nav links styling */
-      nav ul {
-        list-style-type: none;
-        padding:0;
-      }
-
-      nav ul li {
-        display:inline;
-      }
-
-/* End of nav links styling */
-
-
+nav {
+  display:flex;
+}
 
 
 /*
