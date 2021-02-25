@@ -44,7 +44,7 @@ body {
         justify-content:center;
       } */
       
-      .scroll-controls {text-align:right;}
+      .scroll-controls {margin-top:60px;}
       .horizontalscroll-cont::-webkit-scrollbar {
         display: none;
       }
@@ -261,7 +261,7 @@ body {
     <section class="section">
       <div class="container box is-desktop">
         <div class="columns">
-          <div class="column">
+          <div class="column is-hidden-touch">
             <div class="scroll-controls">
               <button class="button">
                 <span class="icon is-small">
@@ -354,12 +354,14 @@ body {
               </div>
             </div>
           </div>
-          <div class="column">
-            <button class="button">
-              <span class="icon is-small">
-                <i class="fas fa-chevron-right"></i>
-              </span>
+          <div class="column is-hidden-touch">
+            <div class="scroll-controls">  
+              <button class="button">
+                <span class="icon is-small">
+                  <i class="fas fa-chevron-right"></i>
+                </span>
             </button>
+           </div>
           </div>
         </div>
       </div>
