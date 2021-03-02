@@ -19,7 +19,20 @@ body {
           margin-left:0;
         }
       }
-      
+
+@media screen and (min-width: 1024px) {
+		.navbar-burger {
+		    display: block;
+		}
+}
+
+/*.navbar-menu.is-active {
+    display: block;
+}*/
+      #navbarLeftView {
+      	display:block;
+      	padding: 1.5rem;
+      }
   
 /*       @media (min-width: 1400px) {
         section .columns {
@@ -31,6 +44,12 @@ body {
         margin-bottom: 0;
       }
       
+
+
+      /*custom section*/
+      .section-custom {
+      	padding: 1.5rem;
+      }
       
 /*       margin-bottom: .75rem */
 /* Start of horizontal scrolling section   */
@@ -114,7 +133,6 @@ body {
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
-          
           <a role="button" class="navbar-burger left-burger" aria-label="menu" aria-expanded="false" data-target="navbarLeftView">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -145,72 +163,10 @@ body {
               </span>
             </span>
           </a>
-         </div>
-	 <div id="navbarLeftView" class="navbar-menu">
-           <div class="navbar-start">
-            <a class="navbar-item">
-                 <button class="button is-primary">
-                    <span class="icon is-small">
-                      <i class="far fa-comment-dots"></i>
-                    </span>
-                    <span>LIVE HELP</span>
-                  </button>
-            </a> 
-             <div class="navbar-item has-dropdown is-hoverable">
-              <a href="#" class="navbar-link">
-                <span class="icon-text">
-                  <span class="icon">
-                    <i class="fas fa-user-alt"></i>
-                  </span>
-                  <span>Login</span>
-                </span>
-              </a>
+        </div>
 
-
-            <a class="navbar-item">
-              Documentation
-            </a>
-            <a class="navbar-item">
-              Home
-            </a>
-
-            <a class="navbar-item">
-              Documentation
-            </a>
-            <a class="navbar-item">
-              Health & Beauty
-            </a>
-
-            <a class="navbar-item">
-              Supermarket
-            </a>
-            <a class="navbar-item">
-              Home & Office
-            </a>
-
-            <a class="navbar-item">
-              Phones & Tablets
-            </a>
-
-
-
-Live Help
-MY JUMIA ACCOUNT
-Orders
-Pending Reviews
-Jumia Credit
-Saved Items
-OUR CATEGORIES
-See All
-
-
-
-
-
-           </div>
-         </div>
         <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
+          <div class="navbar-end">
             <div class="field is-grouped navbar-item">
               <p class="control is-expanded">
                 <input class="input" type="text" placeholder="Search">
@@ -221,13 +177,6 @@ See All
                 </a>
               </p>
             </div>
-            <a class="navbar-item">
-              Home
-            </a>
-
-            <a class="navbar-item">
-              Documentation
-            </a>
             <div class="navbar-item has-dropdown is-hoverable">
               <a href="#" class="navbar-link">
                 <span class="icon-text">
@@ -325,27 +274,53 @@ See All
       </div>
     </nav>
     
+	<section id="navbarLeftView" class=" section is-hidden box">
+        <div class="container">
+        <a class="navbar-item">
+          Supermarket
+        </a>
+        <a class="navbar-item">
+          Phones and Tablets
+        </a>
+        <a class="navbar-item">
+          Computing
+        </a>
+        <a class="navbar-item">
+          Health & Beauty
+        </a>
+        <a class="navbar-item">
+          Supermarket
+        </a>
+        <a class="navbar-item">
+          Home & Office
+        </a>
+        <a class="navbar-item">
+          Phones & Tablets
+        </a>
+    	</div>
+	</section>
+	<!-- </section> -->
     
-    <section class="section">
+    <section class="section-custom">
       <div class="container is-desktop">
         <nav class="breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
-      <ul>
-        <li><a href="#">Bulma</a></li>
-        <li><a href="#">Documentation</a></li>
-        <li><a href="#">Components</a></li>
-        <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
-      </ul>
+	      <ul>
+	        <li><a href="#">Bulma</a></li>
+	        <li><a href="#">Documentation</a></li>
+	        <li><a href="#">Components</a></li>
+	        <li class="is-active"><a href="#" aria-current="page">Breadcrumb</a></li>
+	      </ul>
         </nav>
       </div>
     </section>
-    <section class="section">
+    <section class="section-custom">
       <div class="container box">
         <figure class="image">
           <img src="img/banner-image.png" alt="Full width image">
         </figure>
       </div>
     </section>
-    <section class="section">
+    <section class="section-custom">
       <div class="container box is-desktop">
         <div class="columns">
           <div class="column is-hidden-touch">
@@ -453,7 +428,7 @@ See All
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section-custom">
       <div class="container is-desktop" id="main-content">
       <div class="columns">
         <div class="column is-narrow">
@@ -848,7 +823,7 @@ See All
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section-custom">
       <div class="container content box">
         <h2 class="title">
            Shop Mobile Phone Accessories Online
@@ -864,7 +839,7 @@ See All
         </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section-custom">
       <div class="container">
         <div class="columns">
           <div class="column is-one-fifth">
@@ -912,7 +887,7 @@ See All
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section-custom">
       <div class="container">
         <div class="columns">
           <div class="column is-one-quarter">
@@ -1078,6 +1053,7 @@ See All
     el.classList.toggle('is-active');
     $target.classList.toggle('is-active');
     
+    $target.classList.toggle('is-hidden');
     });
     });
     }
