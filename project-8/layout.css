@@ -1,0 +1,45 @@
+header, main, footer {
+        padding-left:1.5em;
+        padding-right:1.5em;
+}
+
+@media (min-width: 48em) {
+        header, main, footer {
+          padding-left:4em;
+          padding-right:4em;
+
+        }
+      }
+
+@media (min-width: 64em) {
+        header, main, footer {
+          padding-left:8%;
+          padding-right:8%;
+        }
+      }
+
+/* For wide screen  */
+@media (min-width: 100em) {
+ header, footer, main {
+      padding-left:18%;
+      padding-right:18%;
+    }
+}
+
+/* Sidebar layout */
+
+.columns {
+  display:flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 48em) {
+  .columns {
+    flex-wrap: nowrap;
+  }
+  .aside {
+    width: 300px;
+    padding-left: 2em;
+  }
+}
+
+/* End of sidebar layout */
