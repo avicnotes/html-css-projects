@@ -1,13 +1,8 @@
 .navbar-burger {
   width: 5rem;
-  padding-top: 11px;
+  padding-top: 12px;
 }
-.navbar-burger b {
-  /*position:absolute;
-  right: calc(50% - 8px);
-  align-items:center;*/
 
-}
 .navbar-burger span {
   left: calc(70% - 8px);
 }
