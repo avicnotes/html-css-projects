@@ -7,3 +7,18 @@
   left: calc(70% - 8px);
 }
 
+.navbar-item {
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+a {
+  color:#212529;
+  text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-style: dotted;
+}
