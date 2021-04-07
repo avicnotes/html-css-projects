@@ -11,7 +11,7 @@
         justify-content:right;
       }
       #navbarBasicExample {
-        background:blue;
+        background:#0f3057;
       }
       nav .navbar-item {
         color:#fff;
@@ -43,19 +43,26 @@
         color: #fff;
         background-color: transparent;
       }*/
+      #first {
+        border-color: #f58634;
+        color: #f58634;
+      }
+      #second, #subscribe-button {
+        background-color: #f58634;
+      }
 
       .content-types, .content-types .card-content {
-        background-color: yellow;
+        background-color: #e7e7de;
       }
       .resources {
-        background-color:blue;
+        background-color:#00587a;
         color: #fff;
       }
       .resources .subtitle {
         color: #fff;
       }
       footer {
-        background-color:blue;
+        background-color: #0f3057;
       }
       footer .navbar-item{
         color: #fff;
@@ -133,14 +140,14 @@
             <div class="field is-grouped  is-flex is-justify-content-flex-end">
               <p class="control">
                 <a href="#">
-                <button class="button is-primary is-outlined is-medium">
+                <button class="button is-primary is-outlined is-medium" id="first">
                   First Button
                 </button>
               </a>
               </p>
               <p class="control">
                 <a href="#">
-                <button class="button is-primary is-medium">
+                <button class="button is-primary is-medium" id="second">
                   First Button
                 </button>
               </a>
@@ -376,7 +383,7 @@
              <input class="input is-medium" type="text" placeholder="Find a repository">
            </div>
            <p class="control">
-             <a class="button is-primary is-medium">
+             <a class="button is-primary is-medium" id="subscribe-button">
                Submit
              </a>
            </p>
