@@ -10,6 +10,30 @@
         display:flex;
         justify-content:right;
       }
+      #navbarBasicExample {
+        background:blue;
+      }
+      .navbar-start .navbar-item {
+        color:#fff;
+      }
+      .navbar-item .input {
+        background-color: transparent;
+        /*border-color:#fff;*/
+        /*border-width:2px;*/
+      }
+      .navbar-item .input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #fff;
+        opacity: 0.8; /* Firefox */
+      }
+
+      .navbar-item .input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #fff;
+      }
+
+      .navbar-item .input::-ms-input-placeholder { /* Microsoft Edge */
+        color: #fff;
+      }
+
       .hero {
         background: url("IMG_20210202_162855.jpg") no-repeat;
         background-position:center;
@@ -52,15 +76,16 @@
 
         <div class="navbar-end">
           <div class="navbar-item">
-            <div class="field has-addons">
-              <div class="control">
-                <input class="input" type="text" placeholder="Search">
-              </div>
-              <div class="control">
-                <a class="button is-info">
-                  Search
-                </a>
-              </div>
+            <div class="field">
+              <p class="control has-icons-left has-icons-right">
+                <input class="input" type="email" placeholder="Email">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-check"></i>
+                </span>
+              </p>
             </div>
           </div>
         </div>
