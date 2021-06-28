@@ -47,5 +47,20 @@
       </div>
     </div>
   </section>
+  <section class="section">
+    <div class="container">
+      <div id="app">
+        {{ message }}
+      </div>
+    </div>
+  </section>
+  <script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Your code has been displayed successfully!'
+  }
+})
+  </script>
   </body>
 </html>
