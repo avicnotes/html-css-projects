@@ -51,7 +51,8 @@
     <div class="container">
       <div id="app">
         {{ message }}
-       <input v-model="message">
+        <textarea v-model="message">
+        </textarea>
         <button v-on:click="reverseMessage">Reverse Message</button>
       </div>
     </div>
