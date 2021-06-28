@@ -50,10 +50,12 @@
   <section class="section">
     <div class="container">
       <div id="app">
-        {{ message }}
-        <textarea v-model="message">
+        <textarea v-model="message" rows="10">
         </textarea>
         <button v-on:click="reverseMessage">Reverse Message</button>
+        <p>
+          {{ result }}
+        </p>
       </div>
     </div>
   </section>
@@ -61,11 +63,12 @@
 var app = new Vue({
   el: '#app',
   data: {
-    message: 'Your code has been displayed successfully!'
+    message: '1',
+    result:'2'
   },
   methods: {
     reverseMessage: function () {
-      this.message = this.message.split('').reverse().join('')
+      this.result = this.message.split('').reverse().join('')
     }
   }
 })
