@@ -27,19 +27,11 @@
           <button v-on:click="reverseMessage" class="button is-success">Convert</button>
         </div>
       </div>
-      <fieldset disabled>
-        <div class="field">
-          <label class="label">Resulting Code</label>
-          <div class="control">
-            <textarea class="textarea" placeholder="Your code converted will appear here">
-              {{ result }}
-            </textarea>
-          </div>
-        </div>
-      </fieldset>
-      <pre>
-         {{ result }}
-      </pre>
+      <div class="content">
+        <pre>
+{{ result }}
+        </pre>
+      </div>
       <br>
       <div class="field">
         <div class="control">
