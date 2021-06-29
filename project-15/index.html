@@ -65,9 +65,9 @@ function copyById(containerId) {
 }
 
 // add onClick event handler to your button with additional function() to not invoke copyById immediately:
-document.getElementById('copy-button').onclick = function() {
+document.getElementById('copy-button').addEventlistener("click", function() {
   copyById('to-copy');
-}
+});
 </script>
 
 
