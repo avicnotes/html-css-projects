@@ -24,7 +24,7 @@
       </div>
       <div class="field">
         <div class="control">
-          <button v-on:click="reverseMessage" class="button is-success">Convert</button>
+          <button v-on:click="entitleMessage" class="button is-success">Convert</button>
         </div>
       </div>
       <div class="content">
@@ -41,7 +41,7 @@ var app = new Vue({
     result:''
   },
   methods: {
-    reverseMessage: function () {
+    entitleMessage: function () {
       this.result = this.message.replace(/</g, "&lt;").replace(/>/g, "&gt;");
     }
   }
