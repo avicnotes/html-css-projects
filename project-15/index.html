@@ -16,7 +16,7 @@
       <h1 class="title">
         Code Converter for Display on Website
       </h1>
-      <div class="field">
+      <div id="app" class="field">
         <label class="label">Your Code</label>
         <div class="control">
           <textarea class="textarea" placeholder="Paste your code to be converted here"></textarea>
@@ -27,10 +27,6 @@
           <button class="button is-success">Convert</button>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
       <fieldset disabled>
         <div class="field">
           <label class="label">Resulting Code</label>
@@ -49,7 +45,7 @@
   </section>
   <section class="section">
     <div class="container">
-      <div id="app">
+      <div id="app1">
         <textarea v-model="message" rows="10">
         </textarea>
         <button v-on:click="reverseMessage">Reverse Message</button>
@@ -62,6 +58,19 @@
   <script>
 var app = new Vue({
   el: '#app',
+  data: {
+    message: 'a',
+    result:'b'
+  },
+  methods: {
+    reverseMessage: function () {
+      this.result = this.message.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+  }
+})
+
+var app1 = new Vue({
+  el: '#app1',
   data: {
     message: '1',
     result:'2'
