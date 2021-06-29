@@ -33,19 +33,6 @@
         </pre>
       </div>
   </section>
-  <section class="section">
-    <div class="container">
-      <div id="app1">
-        <textarea v-model="message" rows="10">
-        </textarea>
-        <button v-on:click="reverseMessage">Reverse Message</button>
-        <p>
-          {{ result }}
-        </p>
-      </div>
-    </div>
-  </section>
-
   <script>
 var app = new Vue({
   el: '#app',
@@ -59,30 +46,6 @@ var app = new Vue({
     }
   }
 })
-
-var app1 = new Vue({
-  el: '#app1',
-  data: {
-    message: '1',
-    result:'2'
-  },
-  methods: {
-    reverseMessage: function () {
-      this.result = this.message.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    }
-  }
-})
-/*
-function convertCode(stringifiedCode){
-var userInputCode1 = "<h1>HTML Code input</h1>be bold<h2> and big</h2>";
- var escapedCode1 = userInputCode1.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-console.log(escapedCode1);
-var escapedCode = stringifiedCode.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-console.log(escapedCode);
-return escapedCode;
-}
-convertCode("<h1>");
-*/
   </script>
   </body>
 </html>
