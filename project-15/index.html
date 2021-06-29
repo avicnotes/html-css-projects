@@ -68,7 +68,7 @@ var app = new Vue({
   },
   methods: {
     reverseMessage: function () {
-      this.result = this.message
+      this.result = this.message.replace(/</g, "&lt;").replace(/>/g, "&gt;");
     }
   }
 })
