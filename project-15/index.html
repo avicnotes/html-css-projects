@@ -50,8 +50,29 @@
           {{ result }}
         </p>
       </div>
+      <p id="to-copy">Text to copy!</p>
+      <button id="copy-button">Copy to clipboard</button>
+      <br><br>
+      <input placeholder="Paste here, to try!">
     </div>
   </section>
+<script>
+function copyById(containerId) {
+  var range_ = document.createRange(); // create new Range object
+  range_.selectNode(document.getElementById(containerId)); // set our Range to contain the Node we want to copy from
+  window.getSelection().removeAllRanges(); // remove any previous selections
+  window.getSelection().addRange(range_); // select
+  document.execCommand("copy"); // copy to clipboard
+  window.getSelection().removeAllRanges(); // remove selection
+}
+
+// add onClick event handler to your button with additional function() to not invoke copyById immediately:
+document.getElementById('copy-button').onclick = function() {
+  copyById('to-copy');
+}
+</script>
+
+
   <script>
 var app = new Vue({
   el: '#app',
