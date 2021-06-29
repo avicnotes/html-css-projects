@@ -72,16 +72,21 @@ var app = new Vue({
     }
   }
 })
-function convertCode(userInputCode){
+function convertCode(stringifiedCode){
 var userInputCode1 = "<h1>HTML Code input</h1>be bold<h2> and big</h2>";
  var escapedCode1 = userInputCode1.replace(/</g, "&lt;").replace(/>/g, "&gt;");
 console.log(escapedCode1);
-var escapedCode = userInputCode.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+var escapedCode = stringifiedCode.replace(/</g, "&lt;").replace(/>/g, "&gt;");
 console.log(escapedCode);
 return escapedCode;
 }
 convertCode("<h1>");
 
+function stringifyUserCode(userInputCode){
+  console.log( '"'+userInputCode+'"');
+  return '"' + userInputCode +'"';
+}
+stringifyUserCode(<hr>);
   </script>
   </body>
 </html>
