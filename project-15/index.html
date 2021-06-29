@@ -12,11 +12,11 @@
   </head>
   <body>
   <section class="section">
-    <div class="container">
+    <div id="app" class="container">
       <h1 class="title">
         Code Converter for Display on Website
       </h1>
-      <div id="app" class="field">
+      <div class="field">
         <label class="label">Your Code</label>
         <div class="control">
           <textarea v-model="message" class="textarea" placeholder="Paste your code to be converted here"></textarea>
@@ -31,7 +31,9 @@
         <div class="field">
           <label class="label">Resulting Code</label>
           <div class="control">
-            <textarea class="textarea" placeholder="Your code converted will appear here"></textarea>
+            <textarea class="textarea" placeholder="Your code converted will appear here">
+              {{ result }}
+            </textarea>
           </div>
         </div>
       </fieldset>
