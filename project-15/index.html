@@ -72,6 +72,16 @@ var app = new Vue({
     }
   }
 })
+function convertCode(userInputCode1){
+var userInputCode = "<h1>HTML Code input</h1>be bold<h2> and big</h2>";
+ var escapedCode = userInputCode.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+console.log(escapedCode);
+var escapedCode1 = userInputCode1.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+console.log(escapedCode1);
+return escapedCode1;
+}
+convertCode("<h1>");
+
   </script>
   </body>
 </html>
