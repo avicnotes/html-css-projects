@@ -9,3 +9,20 @@
 .primary-bg-color {
   background-color: #0155a5 !important;
 }
+
+.navbar-toggler-icon {
+   background-color:#0000 !important;
+}
+
+.navbar-toggler-icon span {
+   background-color:#000000 !important;
+}
+.navbar-light .navbar-toggler {
+  color: #000000;
+  border-color: #fff !important;
+/*   background-color :red; */
+} 
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E);
+}
