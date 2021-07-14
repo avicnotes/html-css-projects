@@ -1,7 +1,9 @@
 .btn-oval {
-  border-radius:20px;
-  border-radius:25px !important;
-  border-color:#000 !important;
+  border-radius:100px !important;
+}
+
+.btn-outline {
+  border-color:#000 !important; 
 }
 
 
