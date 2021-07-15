@@ -1,0 +1,41 @@
+.btn-oval {
+  border-radius:100px !important;
+}
+
+.btn-outline {
+  border-color:#fff !important; 
+}
+
+.btn-outline_secondary {
+  border-color:#7950f2 !important; 
+}
+
+.primary-color {
+  color: #fff !important;
+}
+
+.secondary-color {
+  color:#7950f2 !important;
+}
+
+.primary-bg-color {
+  background-color: #7950f2 !important;
+}
+
+.secondary-bg-color {
+  background-color: #f3f0ff !important;
+}
+
+.navbar-toggler {
+  border:none !important;
+}
+
+.hero-section {
+  background-image: url("https://raw.githubusercontent.com/avicnotes/components/main/images/bg-small-image-9.jpg");
+  background-repeat: no-repeat;
+  background-position:top center;
+}
+
+.icons-medium {
+  width:70px;
+}
