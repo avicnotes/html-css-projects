@@ -5,3 +5,7 @@
 .primary-color-custom {
   color: #d9480f !important;
 }
+.py-6 {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
