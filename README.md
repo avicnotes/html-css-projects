@@ -30,6 +30,26 @@
 
 [5. Project 15](https://avicnotes.github.io/html-css-projects/project-15/)
 
+[20. Project 20](https://avicnotes.github.io/html-css-projects/project-20/)
+
+[21. Project 21](https://avicnotes.github.io/html-css-projects/project-21/)
+
+[22. Project 22](https://avicnotes.github.io/html-css-projects/project-22/)
+
+[23. Project 23](https://avicnotes.github.io/html-css-projects/project-23/)
+
+[24. Project 24](https://avicnotes.github.io/html-css-projects/project-24/)
+
+[25. Project 25](https://avicnotes.github.io/html-css-projects/project-25/)
+
+[26. Project 26](https://avicnotes.github.io/html-css-projects/project-26/)
+
+[28. Project 27](https://avicnotes.github.io/html-css-projects/project-27/)
+
+[28. Project 28](https://avicnotes.github.io/html-css-projects/project-28/)
+
+[29. Project 29](https://avicnotes.github.io/html-css-projects/project-29/)
+
 
 ## Tools I normally use
 [GoFullPage - Full Page Screen Capture Chrome Extension](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl/related?hl=en)
